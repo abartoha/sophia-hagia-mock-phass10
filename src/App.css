@@ -1,0 +1,115 @@
+.App {
+  --dp-box-width: 150px;
+  text-align: center;
+}
+
+.navbar-black{
+  color: black;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.border-login {
+  border: 0.5px black solid;
+}
+
+.h-vh {
+  height: 100vh;
+}
+
+.max-width-1080 {
+  max-width: 1080px;
+  width: 85vw;
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 5em;
+}
+
+.svg-default {
+  height: 100%;
+  width: auto;
+}
+
+.rotating-icon {
+  animation: rotateicon 10s linear infinite;
+}
+
+@keyframes rotateicon{
+  100%{
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+  }
+}
+
+.shaking-icon:hover {
+  animation: shake 0.5s ease infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.navbar-dp {
+  width: auto;
+  height: 2em;
+  aspect-ratio: 1/1;
+}
+
+.requirement-text {
+  font-size: 0.7em;
+}
+
+.profile-box {
+  border: 3px black solid;
+}
+
+.dashboard-photo {
+  aspect-ratio: 1/1;
+  height: var(--dp-box-width);
+}
+
+.display-name{
+  width: var(--dp-box-width);
+  padding: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.black-icon {
+  color: black;
+}
+
+.page-hero-bg {
+  background-image: url("images/bg_image_1.jpg");
+}
+
+.bg-banner-app {
+  background-image: url("images/banner-pattern.svg");
+}
+
+.fixed-height {
+  padding-top: 3ch;
+  height: 25ch;
+}
